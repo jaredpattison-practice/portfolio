@@ -1,0 +1,97 @@
+input, textarea, select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19pt;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #888;
+}
+
+strong, b {
+  font-weight: 300;
+  color: #666;
+}
+
+em, i {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+  -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  outline: 0;
+}
+
+  a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+p, ul, ol, dl, table {
+  margin-bottom: 2em;
+}
+
+br.clear {
+  clear: both;
+}
+
+section, article {
+  margin-bottom: 3em;
+}
+
+  section > :last-child,
+  section > .container, section:last-child, article > :last-child,
+  article > .container, article:last-child {
+    margin-bottom: 0;
+  }
+
+  .row > section, .row > article {
+    margin-bottom: 0;
+  }
+
+  ul.icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding-left: 0;
+		}
+
+		ul.icons a {
+			display: inline-block;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			border: 0;
+		}
